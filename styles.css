@@ -1,0 +1,1019 @@
+body{
+    background-color: #f7f7f7;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    
+}
+a:hover{
+    transition: 0.2s ease;
+    color: #014b8f ;
+    cursor: pointer;
+}
+
+input{
+    border: none;
+}
+.material-icons{
+    font-size: 1.3em;
+}
+
+h3{
+    font-weight: 600;
+    position: absolute;
+    left: 10%;
+    font-size: 0.9em;
+}
+
+hr {
+    
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding: 0;
+    width: 60%;
+
+}
+
+.scroll a{
+    color: #ccc;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 6px;
+    padding: 3px;
+    
+}
+
+.scroll a:hover{
+    color:#014b8f;
+    transition: 0.5s ease;
+}
+
+.scroll{
+    width: 100px;
+    position: absolute;
+    right: 5px;
+    
+}
+ 
+
+
+/*- - H E A D E R - -*/
+header{
+    height: 28vh;
+    width: 100%;
+    background-color: white;
+}
+
+/*- - T R A K A - - */
+
+
+#traka{
+    height: 20%;
+    padding: 16px 0px 16px 0px;
+    background-color: #014b8f;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+} 
+
+#traka p{
+    flex: 2;
+    margin-left: 8%;
+    
+}
+
+#traka a{
+    margin-left: 10px;
+    color: white;
+}
+
+#traka a:hover{
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+    
+#traka-linkovi{
+    margin-right: 8%;
+}
+
+/*- - L O G O - S E A R C H - B O X - -*/
+#logo-search-shop{
+    display: flex;
+    height: 56%;
+    border-bottom:1px rgb(236, 236, 236) solid;
+
+}
+
+#logo{
+    flex: 1;
+    background-image: url(img/3expert.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2%;
+    
+}
+#search{
+    flex: 2;
+    align-self: center;
+    justify-self: center;
+    height: 40px;
+    background-color:#f7f7f7;
+    border-radius: 3px 0px 0px 3px;
+    margin-left: 100px;
+}
+
+#search a{
+    font-weight: 100;
+    font-size: 0.9em;
+    padding:10px
+}
+
+#search input{
+    height: 100%;
+    width: 73%;
+    background-color: #f7f7f7;
+    outline:none;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding-left: 15px;
+    letter-spacing: 2px;
+    justify-content: center;
+}
+
+#lupa{
+    background-color:#014b8f ;
+    align-self: center;
+    padding:10px;
+    margin-right: 80px;
+    border-radius: 0px 3px 3px 0px;
+    color: white;
+}
+#lupa:hover{
+    cursor: pointer;
+}
+
+#shop-wrapp{
+    flex: 1;
+    align-self: center;
+}
+
+#shop{
+    margin-left: 95px;
+}
+#shop a{
+    margin-left: 8px;
+}
+
+
+/*- - N A V I G A C I J A - -*/
+
+#navigacija{
+    height: 24%;
+    display: flex;
+    align-items: center;
+}
+
+#nav-dugmad{
+    align-items: center;
+    
+}
+
+#nav-dugmad a{
+    padding: 10px;
+}
+
+#telefon span{
+    font-size: 0.8em;
+}
+
+#telefon a{
+    font-size: 0.9em;
+}
+
+#slusalica{
+    background-color:#014b8f  ;
+    padding: 3px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+#kategorije{
+flex: 2.5;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+
+}
+
+#kategorije a{
+    border-right: 1px rgb(236, 236, 236) solid ;
+    border-left: 1px rgb(236, 236, 236) solid ;
+    padding: 15px;
+    padding-left: 62px;
+    padding-right: 32px;
+    margin-right: 25px;
+    
+}
+
+#nav-dugmad{
+flex: 5;
+}
+
+#telefon{
+flex: 1;
+}
+
+/*- - M A I N - -*/
+
+.crna-slova{
+    font-size: 0.9em;
+}
+.siva-slova{
+    font-size: 0.8em;
+    color: rgb(105, 105, 105);
+}
+
+main{
+    display: flex;
+}
+
+.left-side, .right-side{
+    flex: 0.9;
+    margin: 15px;
+}
+
+/*- - L E F T S I D E - -*/
+
+.left-side{
+    margin-left: 110px;
+    
+}
+
+
+#kljucevi{
+    
+    padding-bottom: 15px;
+    position: relative;
+    text-align: center;
+    line-height: 2em;
+    background-color: white;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+#kljucevi .crna-slova{
+    font-size: 0.8em;
+    margin-top: 40px;
+}
+
+#kljucevi-zoom{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    background-image: url(img/set-kljuceva.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+    
+    
+}
+
+#kljucevi-zoom:hover{
+    transform: scale(1.1);
+
+}
+
+#kljucevi i{
+    font-size: 0.9em;
+}
+
+#prazni {
+    
+    height: 50px;   
+    background-color:white;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#artikli{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px rgb(236, 236, 236) solid;
+    margin-top: 15px;   
+    position: relative;
+    line-height: 1em;
+    padding-bottom: 15px;
+    padding-left: 8px;
+}
+
+#artikli h3{
+    
+    top: 3%;
+}
+
+
+
+.male-slikice{
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 2px;
+    height: 55px;
+    width: 55px;
+    margin: 7px;
+    
+
+}
+
+#cekic{
+    background-image: url(img/cekic.jpg);
+}
+#cekic-wrapp{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+
+#kofer-alata{
+    background-image: url(img/koferalatajpeg.jpeg);
+}
+#kofer-alata-wrapp{
+    display: flex;
+    align-items: center;
+}
+
+#rucni-alati{
+    background-image: url(img/ručni-alati.jpg);
+}
+#rucni-alati-wrapp{
+    display: flex;
+    align-items: center;
+}
+#klijesta{
+    background-image: url(img/klijesta.jpg);
+}
+#klijesta-wrapp{
+    display: flex;
+    align-items: center;
+}
+#sarafcigeri{
+    background-image: url(img/sarafcigeri.jpg);
+}
+#sarafcigeri-wrapp{
+    display: flex;
+    align-items: center;
+}
+
+#artikli .crna-slova{
+   font-size: 0.8em;
+   margin-left: 15px;
+}
+
+
+.tagovi{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: 161px;
+    line-height: 2.1em;
+    align-items: center;
+    background-color: white;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 38px;
+    padding-left: 8px;
+}
+
+.tagovi a{
+    font-size: 0.7em;
+    background-color:#f7f7f7 ;
+    padding: 6px;
+}
+
+.tagovi h3{
+    top: 4%;
+}
+
+/*- - C E N T E R - -*/
+
+.center{
+    flex: 4;
+    margin-top: 15px;   
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: repeat(8 1fr);
+    grid-template-rows: repeat(6 1fr);
+    gap: 15px;
+}
+.center .crna-slova{
+    font-size: 0.9em;
+}
+.center .siva-slova{
+    font-size: 0.8em;
+}
+
+.cijena{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#aku24{
+    background-color: white;
+    position: relative;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    overflow: hidden;
+    border-radius:3px;
+}
+#aku24-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/aku24.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .4s;
+}
+#aku24-zoom:hover{
+    transform: scale(1.1);
+
+}
+
+
+#gedore{
+    background-color: white;
+    position: relative;
+    grid-column: 5/7;
+    grid-row: 1/2;
+    overflow: hidden;
+    border-radius:3px;
+    
+}
+#gedore-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/gedore.jpg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    transition: transform .4s;
+
+}
+#gedore-zoom:hover{
+    transform: scale(1.1);
+}
+
+#aku12{
+    background-color: white;
+    position: relative;
+    grid-column: 7/9;
+    grid-row: 1/2;
+    overflow: hidden;
+    border-radius:3px;
+    
+}
+#aku12-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/aku12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .4s;
+}
+#aku12-zoom:hover{
+    transform: scale(1.1);
+}
+
+#brusilica{
+    background-color: white;
+    position: relative;
+    grid-column: 5/7;
+    grid-row: 2/3;
+    overflow: hidden;
+    border-radius:3px;
+    
+}
+#brusilica-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/brusilica2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .4s;
+}
+#brusilica-zoom:hover{
+    transform: scale(1.1);
+}
+
+#ubodna{
+    background-color: white;
+    position: relative;
+    grid-column: 7/9;
+    grid-row: 2/3;
+    overflow: hidden;
+    border-radius:3px;
+
+}
+#ubodna-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/ubodna.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .4s;
+}
+#ubodna-zoom:hover{
+    transform: scale(1.1);
+}
+
+
+#scroll-bar{
+    height: 13%;
+}
+
+.igracke{
+    
+    grid-column:1/9;
+    grid-row: 3/5;
+    position: relative;
+}
+
+.igracke .scroll{
+    right: 4%;
+    top: 4%;
+}
+.igracke h3{
+    left: 4%;
+    top: 5%;
+}
+#igracke-wrapper{
+    height: 87%;
+    width: 100%;
+    background-color:white;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    grid-gap: 15;
+    overflow: hidden;
+}
+
+#bagi{
+    grid-column: 1/2;
+    height: 100%;
+    position: relative;
+}
+
+#bagi-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/bagi-veliki.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+#bagi-zoom:hover{
+    transform: scale(1.1);
+}
+
+#roler{
+    grid-column: 2/3;
+    height: 100%;
+    position: relative;
+}
+
+#roler-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/hyper-roler.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#roler-zoom:hover{
+    transform: scale(1.1);
+}
+
+#brod{
+    grid-column: 3/4;
+    height: 100%;   
+    position: relative;
+}
+
+#brod-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/brod.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#brod-zoom:hover{
+    transform: scale(1.1);
+}
+
+#auto{
+    grid-column: 4/5;
+    height: 100%;
+    position: relative;
+}
+
+#auto-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/veliko-auto.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#auto-zoom:hover{
+    transform: scale(1.1);
+}
+
+#scroll-bar{
+    height: 13%;
+}
+
+.autokozmetika{
+    grid-column:1/9;
+    grid-row: 3/5;
+    position: relative;
+}
+
+.autokozmetika .scroll{
+    right: 4%;
+    top: 4%;
+}
+.autokozmetika h3{
+    left: 4%;
+    top: 5%;
+}
+#autokozmetika-wrapper{
+    height: 87%;
+    width: 100%;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-gap: 15px;
+    overflow: hidden;
+}
+
+#brisaci{
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+
+}
+
+#brisaci-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/brisaci.jpg);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+#brisaci-zoom:hover{
+    transform: scale(1.1);
+}
+
+#sijalica{
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 100%;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#sijalica-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/sijalica.jpg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#sijalica-zoom:hover{
+    transform: scale(1.1);
+}
+
+#prostirke{
+    background-color: white;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    height: 100%;   
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#prostirke-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/prostirke.jpg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#prostirke-zoom:hover{
+    transform: scale(1.1);
+}
+
+#akumulator{
+    background-color: white;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    height: 100%;   
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#akumulator-zoom{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/akumulator.jpg);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transition: transform 0.4s;
+}
+
+#akumulator-zoom:hover{
+    transform: scale(1.1);
+}
+
+#slika1{
+    
+        background-image: url(img/osram.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        height: 100%;   
+        position: relative;
+        border-radius: 3px;
+        overflow: hidden;
+}
+
+#slika2{
+    
+    background-image: url(img/toy-sprint.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 100%;   
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#slika3{
+    
+    background-image: url(img/royce-logo.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    height: 100%;   
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+#slika4{
+    
+    background-image: url(img/rea.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    height: 100%;   
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.autokozmetika{
+    
+    grid-column: 1/9;   
+    grid-row: 5/7;
+}
+
+/*- - R I G H T S I D E - -*/
+
+.right-side{
+    margin-right: 110px;
+    
+}
+.right-side .crna-slova{
+    font-size: 0.8em;
+    
+}
+#info{
+    padding-bottom: 15px;
+    background-color: white;
+    text-align: center;
+    font-size: 00.9em;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.velike-ikone{
+    font-size: 2.2em;
+    color: #014b8f  ;
+}
+
+#membership{
+    margin-top: 12px;
+}
+
+#musterije {
+    background-color: white;
+    text-align: center;
+    font-size: 00.9em;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px; 
+    padding: 5px;
+    letter-spacing: 2px;
+    line-height: 0.9em;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+#musterije h3{
+    margin-top: 5%;
+    
+}
+#musterije .crna-slova{
+    margin-bottom: 5%;
+    
+}
+#musterije .siva-slova{
+    font-style: italic;
+    line-height: 1.4em;
+    
+}
+#slika-kupca{
+    background-image: url(img/musterija.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 50%;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+
+#o-nama h3{
+    margin-top: 5%;
+    left: 10%;
+    
+}
+
+#o-nama {
+    background-color: white;
+    text-align: left;
+    font-size: 00.9em;
+    border: 1px rgb(236, 236, 236) solid;
+    border-radius: 5px; 
+    padding: 6px;
+    line-height: 1em;
+    letter-spacing: 2px;
+    font-size: 1em;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    font-style: italic;
+    padding-bottom:15px ;
+}
+
+#o-nama img{
+    width: 70%;
+    height: 50px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-left: 20px
+}
+
+#o-nama p{
+    padding-left: 7px;
+    margin-bottom: 10px;
+}
+
+#o-nama a{
+    padding: 8px;
+
+    
+}
+
+/*- - F O O T E R - -*/
+
+footer{
+ width: 100%;
+    
+}
+
+#footer-traka{
+    background-color: #014b8f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    
+}
+
+#iconice{
+    font-size: 1em;
+    
+}
+
+#iconice a{
+    color: white;
+    padding: 10px;
+}
+
+#footer-podatci{
+    height: 300px;
+    background-image: url(img/radnjaa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+
+@media only screen and(max-width:600px){
+    
+}
+
+
+
+
+
+
+
